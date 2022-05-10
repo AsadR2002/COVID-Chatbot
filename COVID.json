@@ -1,0 +1,63 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","bye"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "isolation",
+         "patterns": ["how long is the isolation period", "isolation period", "isolation period for vaccinated people", "isolation period for un-vaccinated people", "isolation"],
+         "responses": ["The isolation period for fully vaccinated individuals is 5 days, while the isolation period for un-vaccinated individuals is 10 days."],
+         "context_set": ""
+        },
+        {"tag": "gatherings",
+         "patterns": ["what are the limits on gatherings", "gathering limits", "number of people in gatherings"],
+         "responses": ["Gatherings are limited to 10 people outdoors, and 5 people indoors."],
+         "context_set": ""
+        },
+        {"tag": "events",
+         "patterns": ["public events", "number of people in public events", "outdoor events", "indoor events"],
+         "responses": ["Indoor events are limited to 5 people. outdoor events have no limits on number of attendees, but face coverings and/or masks must be worn when distancing (two metres or more) cannot be maintained."],
+         "context_set": ""
+        },
+        {"tag": "ceremonies",
+         "patterns": ["religious ceremonies", "weddings", "funerals", "religious services", "number of people in ceremonies", "number of people allowed in prayer", "limit on number of people for wedding"],
+         "responses": ["Indoor services are limited to 50 per cent the capacity of the room. Outdoor services are limited to the number of people who can maintain two metres distance."],
+         "context_set": ""
+        },
+        {"tag": "work",
+         "patterns": ["work from home", "business regulations for employees", "employee rules", "should I work from home"],
+         "responses": ["Businesses and organizations must make sure that all work is conducted remotely, unless the nature of the work requires workers to be on-site at the workplace."],
+         "context_set": ""
+        },
+        {"tag": "virus-info",
+         "patterns": ["what is coronavirus", "what is COVID"],
+         "responses": ["COVID-19 is the disease caused by SARS-CoV-2, the coronavirus that emerged in December 2019. Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention. Older people and those with underlying medical conditions like cardiovascular disease, diabetes, chronic respiratory disease, or cancer are more likely to develop serious illness. Anyone can get sick with COVID-19 and become seriously ill or die at any age."],
+         "context_set": ""
+        },
+        {"tag": "spread",
+         "patterns": ["how does COVID spread", "how does coronavirus spread", "how do I get COVID", "how do I give someone COVID"],
+         "responses": ["Infectious droplets or aerosols may come into direct contact with the mucous membranes of another person's nose, mouth or eyes, or they may be inhaled into their nose, mouth, airways and lungs. The virus is most frequently transmitted when people are in close contact with others who are infected with the virus (either with or without symptoms)."],
+         "context_set": ""
+        },
+        {"tag": "reduce",
+         "patterns": ["how to reduce spread of COVID", "stop spread of virus", "how to not get COVID"],
+         "responses": ["Physical distancing, masks, vaccines , and other preventive measures such as avoiding crowded places and isolating whenever you feel sick or come into contact with someone who tests positive."],
+         "context_set": ""
+        },
+        {"tag": "retail",
+         "patterns": ["are stores open", "retail rules and regulations", "COVID measures for stores", "stores in COVID", "is the mall open"],
+         "responses": ["Retail stores are required to operate under 50% capacity. There are also additional safety measures for shopping malls, including capacity limits, no loitering, distancing in line ups, food courts closed and active screening."],
+         "context_set": ""
+        },
+        {"tag": "multiple-infections",
+         "patterns": ["can the same person get COVID more than once", "getting COVID multiple times"],
+         "responses": ["Infection more than once with COVID-19 is rare. Most people who have been infected with COVID-19 develop antibodies (proteins the body makes to protect against future infection as a result of past infection or vaccination). However, it is still uncertain if these antibodies will fully protect a person from future infections."],
+         "context_set": ""
+        }
+   ]
+}
